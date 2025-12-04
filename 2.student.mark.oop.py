@@ -38,7 +38,7 @@ class Course:
     def input():
         c_id = input("Enter course ID: ")
         c_name = input("Enter course name: ")
-        return Course(c_id, c_name) #call init
+        return Course(c_id, c_name)
     
     def __str__(self):
         return f"Course {self.index2}: {self.__id}, {self.__name}"
