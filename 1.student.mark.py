@@ -1,6 +1,7 @@
 students = []
 courses = []
 marks = {}
+
 def input_students():
     s = int(input("Numbers of students: "))
     for i in range(s):
