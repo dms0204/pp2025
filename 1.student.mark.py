@@ -4,6 +4,7 @@ marks = {}
 def input_students():
     s = int(input("Numbers of students: "))
     for i in range(s):
+        print("Student", i+1)
         std_id = input("Enter student ID: ")
         std_name = input("Enter student name: ")
         std_DoB = input("Enter student DoB: ")
@@ -13,6 +14,7 @@ def input_students():
 def input_courses():
     c = int(input("Enter numbers of courses: "))
     for j in range(c):
+        print("Course ", j+1)
         c_id = input("Enter course ID: ")
         c_name = input("Enter course name: ")
         course = {"id": c_id, "name": c_name}
@@ -56,4 +58,4 @@ def main():
     list_courses()
     show_student_marks()
 
-main()
+main() 
