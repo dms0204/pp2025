@@ -1,5 +1,6 @@
 class Student:
-    count1 = 0 
+    count1 = 0
+
     def __init__(self, std_id, std_name, std_DoB): #constructor
         self.index1 = Student.count1
         self.__id = std_id
@@ -24,6 +25,7 @@ class Student:
     
 class Course:
     count2 = 0
+    
     def __init__(self, c_id, c_name):
         Course.count2 +=1
         self.index2 = Course.count2
