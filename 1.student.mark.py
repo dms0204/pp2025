@@ -14,7 +14,7 @@ def input_students():
 def input_courses():
     c = int(input("Enter numbers of courses: "))
     for j in range(c):
-        print("Course ", j+1)
+        print("Course", j+1)
         c_id = input("Enter course ID: ")
         c_name = input("Enter course name: ")
         course = {"id": c_id, "name": c_name}
