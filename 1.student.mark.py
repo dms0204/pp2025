@@ -8,8 +8,8 @@ def input_students():
         std_id = input("Enter student ID: ")
         std_name = input("Enter student name: ")
         std_DoB = input("Enter student DoB: ")
-        student = {"id": std_id, "name": std_name, "DoB": std_DoB}
-        students.append(student)
+    student = {"id": std_id, "name": std_name, "DoB": std_DoB}
+    students.append(student)
 
 def input_courses():
     c = int(input("Enter numbers of courses: "))
@@ -58,4 +58,4 @@ def main():
     list_courses()
     show_student_marks()
 
-main() 
+main()
