@@ -2,6 +2,7 @@ class Student:
     count1 = 0
 
     def __init__(self, std_id, std_name, std_DoB): #constructor
+        Student.count1+=1
         self.index1 = Student.count1
         self.__id = std_id
         self.__name = std_name
