@@ -3,19 +3,19 @@ courses = []
 marks = {}
 
 def input_students():
-    s = int(input("Numbers of students: "))
-    for i in range(s):
-        print("Student", i+1)
+    s = int(input("Enter numbers of students: "))
+    for i in range(s):  
+        print(f"Student {i+1}")
         std_id = input("Enter student ID: ")
         std_name = input("Enter student name: ")
         std_DoB = input("Enter student DoB: ")
-    student = {"id": std_id, "name": std_name, "DoB": std_DoB}
-    students.append(student)
+        student = {"id": std_id, "name": std_name, "DoB": std_DoB}
+        students.append(student)
 
 def input_courses():
     c = int(input("Enter numbers of courses: "))
     for j in range(c):
-        print("Course", j+1)
+        print(f"Course {j+1}")
         c_id = input("Enter course ID: ")
         c_name = input("Enter course name: ")
         course = {"id": c_id, "name": c_name}
