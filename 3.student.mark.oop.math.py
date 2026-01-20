@@ -35,7 +35,7 @@ class Student(Entity):
     
     # Polymorphism
     def list(self):
-            return f"Student {self.index1}: {self.__id}, {self.__name}, {self.__DoB}"
+        return f"Student {self.index1}: {self.__id}, {self.__name}, {self.__DoB}"
     
 class Course(Entity):
     count2 = 0
